@@ -1,0 +1,29 @@
+body {
+    font-family: 'Poppins-Light';
+}
+
+
+nav #nav-principal li a {
+    padding: 0.5rem 1rem;
+    transition: all 0.2s linear;
+    border-radius: 5px;
+}
+
+nav #nav-principal li a:hover {
+    color: white;
+    background: steelblue;
+}
+
+.footer{
+    background-color: #222831;
+    color: white;
+}
+
+#footer-nav ul li a {
+    color: white;
+
+}
+
+.footer-text{
+    color: steelblue;
+}
