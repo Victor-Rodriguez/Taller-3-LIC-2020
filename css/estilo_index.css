@@ -9,6 +9,10 @@ nav #nav-principal li a {
     border-radius: 5px;
 }
 
+nav #nav-principal li a {
+    font-size: 0.8em;
+}
+
 nav #nav-principal li a:hover {
     color: white;
     background: steelblue;
