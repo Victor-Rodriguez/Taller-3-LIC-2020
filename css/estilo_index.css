@@ -14,6 +14,10 @@ nav #nav-principal li a:hover {
     background: steelblue;
 }
 
+.tema-index {
+    font-family: 'Montserrat-Bold';
+}
+
 .footer{
     background-color: #222831;
     color: white;
