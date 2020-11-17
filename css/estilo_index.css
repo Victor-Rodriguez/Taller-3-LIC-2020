@@ -18,6 +18,14 @@ nav #nav-principal li a:hover {
     background: steelblue;
 }
 
+.breadcrumb {
+    background-color: #FFFF;
+}
+
+.separador .breadcrumb-item+ .breadcrumb-item::before {
+    content: ">";
+}
+
 .tema-index {
     font-family: 'Montserrat-Bold';
 }
@@ -49,6 +57,14 @@ nav #nav-principal li a:hover {
 
 .img-tarjeta-historia {
     height: 275px;
+}
+
+.img-producto-carrito {
+    width: 100px;
+}
+
+.img-producto-carrito img {
+    width: 100%;
 }
 
 .footer{
