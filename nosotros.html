@@ -11,7 +11,7 @@
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/font-icon.js"></script>
-    <title>Clothing Store | Contacto</title>
+    <title>Clothing Store | Nosotros</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -45,10 +45,10 @@
                 </a>
             </div>
             <ul class="navbar-nav ml-auto" id="nav-principal">
-                <li class="nav-item">
-                    <a class="nav-link" href="nosotros.html"><i class="fas fa-book"></i> Nosotros</a>
-                </li>
                 <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fas fa-book"></i> Nosotros</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="contacto.html"><i class="fas fa-envelope"></i> Contacto</a>
                 </li>
             </ul>
@@ -63,63 +63,53 @@
 
     <div class="img-carta">
         <div class="d-flex justify-content-center">
-            <h2 class="titulo-contact">CONTACTO</h2>
+            <h2 class="titulo-contact">Nostros</h2>
         </div>
     </div>
 
     <div class="container py-5">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Contacto</a></li>
+              <li class="breadcrumb-item"><a href="#">Nosotros</a></li>
               <!-- <li class="breadcrumb-item active" aria-current="page">Library</li> -->
             </ol>
         </nav>
 
-        <form class="needs-validation" novalidate>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="validationCustom01">Nombres</label>
-                    <input type="text" class="form-control" id="validationCustom01" value="" required>
-                    <div class="valid-feedback">
-                        Correcto!
-                    </div>
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="validationCustom02">Apellidos</label>
-                    <input type="text" class="form-control" id="validationCustom02" value="" required>
-                    <div class="valid-feedback">
-                        Correcto!
-                    </div>
-                </div>
+        <div class="row featurette mt-5">
+            <div class="col-md-7">
+                <h2 class="titulo-historia"><span><i class="fas fa-book"></i></span> Historia</h2>
+                <p class="text-justify">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur, quasi qui corporis quae praesentium 
+                    eaque! Sunt doloremque corporis exercitationem consequatur eos, quidem perspiciatis aut cumque laboriosam 
+                    perferendis odio repellat.
+                    <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nobis fuga distinctio vel odit, temporibus nemo 
+                    doloribus! Suscipit tempore et iste, itaque labore, atque nihil provident modi facilis quas est.
+                </p>
             </div>
-            <div class="form-group">
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text" id="inputGroupPrepend">@</span>
-                    </div>
-                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-                    <div class="invalid-feedback">
-                      Porfavor ingrese su correo electrónico.
-                    </div>
-                  </div>
+            <div class="col-md-5 mt-5 text-center tarjeta-historia">
+                <img src="img/about-02.jpg" class="bd-placeholder-img rounded-circle img-tarjeta-historia" alt="">
             </div>
-            <div class="form-group">
-                <label for="">Mensaje</label>
-                <textarea class="form-control" id="" rows="3"></textarea>
+        </div>
+        <hr class="my-4" />
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="titulo-mision"><span><i class="far fa-lightbulb"></i></span> Misión</h2>
+                <p class="text-justify">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur, quasi qui corporis quae praesentium 
+                    eaque! Sunt doloremque corporis exercitationem consequatur eos, quidem perspiciatis aut cumque laboriosam 
+                    perferendis odio repellat.
+                    <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nobis fuga distinctio vel odit, temporibus nemo 
+                    doloribus! Suscipit tempore et iste, itaque labore, atque nihil provident modi facilis quas est.
+                </p>
             </div>
-            <div class="form-group">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                  <label class="form-check-label" for="invalidCheck">
-                    Acepta los términos y condiciones
-                  </label>
-                  <div class="invalid-feedback">
-                    Debes estar de acuerdo antes de enviar.
-                  </div>
-                </div>
-              </div>
-            <button class="btn btn-outline-info" type="submit">Enviar</button>
-          </form>
+            <div class="col-md-5 order-md-1 mt-5 text-center">
+                <img src="img/about-02.jpg" class="bd-placeholder-img rounded-circle img-tarjeta-historia" alt=""
+          />
+            </div>
+        </div>
     </div>
 
     <!-- FOOTER -->
@@ -168,7 +158,7 @@
             <div class="footer-copyright text-center py-3">© 2020 Copyright | <span class="footer-text">Clothing Store</span></div>
         </div>
     </section>
-    <!-- Validacion de formulario -->
-    <script src="js/validationform.js"></script>
+
+
 </body>
 </html>
